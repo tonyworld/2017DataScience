@@ -48,10 +48,12 @@ print(out)
 The output is,
 
 ID: 54 
-  visit  bedroom       den living room    office
-1     0       NA        NA    2.792601 13.255475
-2     1       NA 13.450946          NA  4.533921
-3     2 4.193721  3.779225          NA        NA
+
+| |visit |  bedroom|       den| living room|    office|
+|-|------|---------|----------|------------|----------|
+|1|     0|       NA|        NA|    2.792601| 13.255475|
+|2|     1|       NA| 13.450946|          NA|  4.533921|
+|3|     2| 4.193721|  3.779225|          NA|        NA|
 
 ```{r}
 out <- subject(x, 14) %>% summary
@@ -60,10 +62,12 @@ print(out)
 The output is,
 
 ID: 14 
-  visit   bedroom family  room living room
-1     0  4.786592           NA     2.75000
-2     1  3.401442     8.426549          NA
-3     2 18.583635           NA    22.55069
+
+|  |visit|   bedroom| family  room| living room|
+|---|----|----------|-------------|------------|  
+|1|     0|  4.786592|           NA|     2.75000|
+|2|     1|  3.401442|     8.426549|          NA|
+|3|     2| 18.583635|           NA|    22.55069|
 
 ```{r}
 out <- subject(x, 44) %>% visit(0) %>% room("bedroom")
