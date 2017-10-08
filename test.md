@@ -1,4 +1,4 @@
-# Severe weather events cause public health and economic problems
+Severe weather events cause public health and economic problems
 ==================================
 
 
